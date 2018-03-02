@@ -16,11 +16,13 @@ function appendDriver(name){
   newDrivers.push(name);
 }
 function prependDriver(name){
-  
+
 }
 function removeLastDriver(){
-
+  var newArray = drivers.slice(-1,1);
+  return newArray;
 }
 function removeFirstDriver(){
-
+  var newArray = drivers.slice(0,1);
+  return newArray;
 }
