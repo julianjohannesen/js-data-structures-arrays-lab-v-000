@@ -15,3 +15,9 @@ function appendDriver(name){
   var newDrivers = drivers.slice();
   newDrivers.push(name);
 }
+function removeLastDriver(){
+
+}
+function removeFirstDriver(){
+
+}
