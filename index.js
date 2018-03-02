@@ -12,10 +12,14 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
 function appendDriver(name){
-
+  var newArray = drivers.slice();
+  newArray.push(name);
+  return newArray;
 }
 function prependDriver(name){
-
+  var newArray = drivers.slice();
+  newArray.unshift(name);
+  return newArray;
 }
 function removeLastDriver(){
   var newArray = drivers.slice(0,-1);
